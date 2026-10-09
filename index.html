@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedro Henrique | Portfólio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <span class="logo">Pedro Henrique</span>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><button id="btn-tema" type="button">Escuro</button></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="inicio">
+  <div>
+    <h1>Olá, eu sou o<br>Pedro Henrique</h1>
+    <p id="digitando"><span id="texto-digitado"></span><span class="cursor">|</span></p>
+    <a class="botao" href="#projetos">Ver projetos</a>
+    <a class="botao vazio" href="#contato">Fale comigo</a>
+  </div>
+  <div class="foto">
+    <img src="foto.jpg" alt="Foto do Pedro Henrique" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<section id="sobre" class="aparecer">
+  <h2>Sobre mim</h2>
+  <p>Tenho 15 anos, moro em Contagem (MG) e estudo no Técnico em Informática do COTEMIG, unidade Barroca. Estou na 2ª série e a formatura está prevista para dezembro de 2027.</p>
+  <br>
+  <p>Gosto de entender como os computadores funcionam, tanto por dentro (hardware) quanto por fora (programas e código). Meu objetivo é aprimorar meus conhecimentos em informática e crescer na área de tecnologia, aprendendo algo novo a cada projeto.</p>
+  <br>
+  <div class="grade">
+    <div class="card"><h3>Formação</h3><p>Ensino Fundamental II concluído no Colégio Santa Maria (2024). Técnico em Informática no COTEMIG desde 2023.</p></div>
+    <div class="card"><h3>Cursos</h3><p>MCC – Montagem e Configuração de Computadores (2025) e Robótica (2025).</p></div>
+  </div>
+</section>
+
+<section id="habilidades" class="aparecer">
+  <h2>Habilidades</h2>
+  <div class="grade">
+    <div class="card"><h3>Técnicas</h3>
+      <p>Windows e Linux</p><div class="barra"><div style="--nivel:75%"></div></div>
+      <p>Pacote Office</p><div class="barra"><div style="--nivel:80%"></div></div>
+      <p>Hardware (básico)</p><div class="barra"><div style="--nivel:60%"></div></div>
+      <p>Instalação e configuração de programas</p><div class="barra"><div style="--nivel:70%"></div></div>
+    </div>
+    <div class="card"><h3>Programação</h3>
+      <p>Lógica de programação em C#</p><div class="barra"><div style="--nivel:55%"></div></div>
+      <p>HTML, CSS e JavaScript</p><div class="barra"><div style="--nivel:50%"></div></div>
+      <p>Banco de dados (modelagem)</p><div class="barra"><div style="--nivel:50%"></div></div>
+      <p>Git e GitHub</p><div class="barra"><div style="--nivel:40%"></div></div>
+    </div>
+    <div class="card"><h3>Pessoais</h3>
+      <p>Trabalho em equipe</p>
+      <p>Vontade de aprender</p>
+      <p>Organização</p>
+      <p>Resolução de problemas</p>
+      <p>Design de interfaces no Figma</p>
+    </div>
+  </div>
+</section>
+
+<section id="projetos" class="aparecer">
+  <h2>Projetos</h2>
+  <div class="grade">
+    <div class="card"><h3>Loja Gol de Placa</h3><p>Site de uma loja virtual de artigos de futebol, com várias páginas.</p>
+      <div class="acoes">
+        <button class="botao" data-titulo="Loja Gol de Placa" data-desc="Site com várias páginas: início, quem somos, produtos, busca, contato, cadastro e pedidos. Mostra categorias, produtos em destaque, preços e vantagens da loja. Feito com HTML, CSS e JavaScript.">Saiba mais</button>
+        <a class="botao vazio" href="https://pedrosantos2010.github.io/gol-de-placa/index.html" target="_blank" rel="noopener">Abrir site</a>
+      </div></div>
+    <div class="card"><h3>Landing Page Gol de Placa</h3><p>Página de vendas de camisas, chuteiras e acessórios de futebol.</p>
+      <div class="acoes">
+        <button class="botao" data-titulo="Landing Page Gol de Placa" data-desc="Página única criada para vender produtos: tem destaque da nova coleção, lista dos mais vendidos com preços, depoimento de cliente, chamada para cadastro com desconto e selos de confiança.">Saiba mais</button>
+        <a class="botao vazio" href="https://pedrosantos2010.github.io/landing-page/" target="_blank" rel="noopener">Abrir site</a>
+      </div></div>
+    <div class="card"><h3>Quadro de Medalhas</h3><p>Programa em C# com matriz e vetor.</p>
+      <div class="acoes">
+        <button class="botao" data-titulo="Quadro de Medalhas (C#)" data-desc="Programa de console que sorteia as medalhas de ouro, prata e bronze de 10 países usando uma matriz, soma o total de cada país com um vetor e mostra qual é o país campeão (o que tem mais ouros).">Saiba mais</button>
+        <a class="botao vazio" href="https://github.com/Pedrosantos2010/medalhas" target="_blank" rel="noopener">Ver código</a>
+      </div></div>
+    <div class="card"><h3>Montagem de computador</h3><p>Montagem e configuração de um PC durante o curso de MCC.</p>
+      <button class="botao" data-titulo="Montagem de computador" data-desc="No curso de MCC aprendi a identificar as peças, montar o computador, instalar o sistema operacional e configurar os programas.">Saiba mais</button></div>
+    <div class="card"><h3>Projeto de Robótica</h3><p>Robô montado e programado em equipe.</p>
+      <button class="botao" data-titulo="Projeto de Robótica" data-desc="Em equipe, montamos um robô, ligamos sensores e motores e programamos o seu funcionamento.">Saiba mais</button></div>
+    <div class="card"><h3>Banco de dados</h3><p>Modelagem e criação de tabelas.</p>
+      <button class="botao" data-titulo="Banco de dados" data-desc="Modelei um banco de dados simples, criei as tabelas e aprendi a inserir e consultar informações.">Saiba mais</button></div>
+    <div class="card"><h3>Este portfólio</h3><p>Site feito com HTML, CSS e JavaScript.</p>
+      <button class="botao" data-titulo="Este portfólio" data-desc="O design foi feito no Figma e depois transformado em código. Tem modo escuro, formulário com máscaras e é responsivo.">Saiba mais</button></div>
+  </div>
+  <br>
+  <a class="botao" href="https://github.com/Pedrosantos2010" target="_blank" rel="noopener">Meu GitHub</a>
+</section>
+
+<section id="contato" class="aparecer">
+  <h2>Contato</h2>
+  <form id="form-contato" novalidate>
+    <div>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" placeholder="Seu nome completo">
+      <div class="erro" id="erro-nome"></div>
+    </div>
+    <div>
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" placeholder="(31) 99999-9999" maxlength="15">
+      <div class="erro" id="erro-telefone"></div>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="seuemail@exemplo.com">
+      <div class="erro" id="erro-email"></div>
+    </div>
+    <div>
+      <label for="mensagem">Mensagem (<span id="contador">0</span>/300)</label>
+      <textarea id="mensagem" rows="5" maxlength="300" placeholder="Escreva sua mensagem"></textarea>
+      <div class="erro" id="erro-mensagem"></div>
+    </div>
+    <button type="submit" class="botao">Enviar mensagem</button>
+  </form>
+</section>
+
+<footer>
+  <p><strong>Pedro Henrique Batista Santos</strong></p>
+  <p>Telefone: (31) 99208-1609</p>
+  <p>E-mail: <a href="mailto:Pedrobsantos010@gmail.com">Pedrobsantos010@gmail.com</a></p>
+  <p>Cidade: Contagem – MG</p>
+  <p>© 2026 Pedro Henrique</p>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modal-caixa">
+    <h3 id="modal-titulo"></h3>
+    <p id="modal-texto"></p>
+    <button class="botao" id="modal-fechar" type="button">Fechar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
